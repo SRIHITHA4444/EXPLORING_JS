@@ -43,3 +43,11 @@ nav a[aria-current='page'] {
     align-items: center;
     flex-direction: column;
 }
+
+#local-time{
+    font-size: 42px;
+    padding: 25px 50px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: rgb(188, 225, 24);
+}
