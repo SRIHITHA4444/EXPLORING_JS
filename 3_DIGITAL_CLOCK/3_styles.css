@@ -36,7 +36,7 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 
-.center{
+.container{
     display: flex;
     height: 100vh;
     justify-content: center;
