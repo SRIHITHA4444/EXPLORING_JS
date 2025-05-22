@@ -36,12 +36,23 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 
-main {
+.bmi-container {
   padding: 1rem;
+  margin-left: 40px;
 }
 
 h1, h3 {
   margin-left: 40px;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+button{
+  background-color:rgb(132, 175, 76);
+}
+
+button, #height, #weight{
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
 }
