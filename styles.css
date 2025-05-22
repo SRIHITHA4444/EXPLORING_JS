@@ -25,10 +25,10 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px rgb(22, 22, 22);
+  border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #1b1b1b;
+  color: #555;
 }
 
 nav a[aria-current='page'] {
@@ -45,17 +45,22 @@ h1 {
   font-size: 1.5rem;
 }
 
-.projects {
+.projects{
   display: flex;
   flex-direction: column;
 }
 
-.project-link {
+.pjt {
   background-color: #fff;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 8px;
   color: #212121;
   text-decoration: none;
   border: 2px solid #212121;
   margin-top: 5px;
+}
+
+.pjt:hover, .home:hover {
+  background-color: antiquewhite;
+  color: brown;
 }
