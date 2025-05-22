@@ -1,5 +1,4 @@
 const form = document.querySelector('form'); //form contains submit button which is 'Calculate' button
-const body = document.querySelector('body');
 
 form.addEventListener('submit', (et) => {
     et.preventDefault();
@@ -14,7 +13,7 @@ form.addEventListener('submit', (et) => {
         result.innerHTML = weight / Math.pow(height, 2);
     }
     else{
-        result.innerHTML = "Please enter valid height and weight";
+        result.innerHTML = "Please enter valid height and weight!!";
     }
 });
 
