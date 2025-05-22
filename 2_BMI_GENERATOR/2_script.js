@@ -10,7 +10,20 @@ form.addEventListener('submit', (et) => {
     //.value returns the value provided by user in the form of String
 
     if(!isNaN(height) && !isNaN(weight) && height !== '' && weight !== '' && height > 0 && weight > 0){
-        result.innerHTML = weight / Math.pow(height, 2);
+        const bmi = (weight / (Math.pow(height, 2) / 10000)).toFixed(2); 
+        let bmiStatus = '';
+
+        if(bmi < 18.6){
+            bmiStatus = 'Underweight';
+        }
+        else if (bmi >= 18.6 && bmi <= 24.9){ 
+            bmiStatus = 'Normal';
+        } 
+        else{ 
+            bmiStatus = 'Overweight';
+        }
+
+        result.innerHTML = `<span>${bmi}</span></br><span>BMI Status: ${bmiStatus}`;
     }
     else{
         result.innerHTML = "Please enter valid height and weight!!";
