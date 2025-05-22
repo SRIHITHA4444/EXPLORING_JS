@@ -51,8 +51,12 @@ button{
   background-color:rgb(132, 175, 76);
 }
 
-button, #height, #weight{
+button, #height, #weight,{
   padding: 10px 20px;
   border-radius: 4px;
   font-size: 16px;
+}
+
+.result{
+  font-size: 1.5rem;
 }
