@@ -47,11 +47,14 @@ table,th,td {
   height: 100vh;
 }
 
-.key{
+#key-insert{
     margin-top: 200px;
     font-size: 30px;
     text-align: center;
     font-weight: 600;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
 }
 
 .color {
