@@ -11,9 +11,11 @@ function randomColorGen(){
 let intervel;
 
 document.querySelector('#start').addEventListener('click', () => {
-    intervel = setInterval(() => {
-        document.body.style.backgroundColor = randomColorGen();
-    }, 1000);
+    if(!intervel){
+        intervel = setInterval(() => {
+            document.body.style.backgroundColor = randomColorGen();
+        }, 1000);
+    }
 });
 
 document.querySelector('#stop').addEventListener('click', () => {
