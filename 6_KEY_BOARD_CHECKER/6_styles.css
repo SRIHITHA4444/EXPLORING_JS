@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: #fff;
-  background-color: #212121;
+  color: #ffffff;
+  background-color: #1c1c1c;
 }
 
 nav {
@@ -40,8 +40,6 @@ table,th,td {
       border: 1px solid #e7e7e7;
 }
 .conatiner{
-  background-color: #1c1c1c;
-  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
