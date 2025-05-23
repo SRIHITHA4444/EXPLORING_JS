@@ -27,7 +27,7 @@ function validateGuess(guess){
 
     if(isNaN(guess)){
         alert('Please enter a valid number!');
-        return
+        return;
     }
 
     else if(guess < 1 || guess > 100){
