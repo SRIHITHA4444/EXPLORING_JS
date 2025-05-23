@@ -20,6 +20,5 @@ document.querySelector('#start').addEventListener('click', () => {
 
 document.querySelector('#stop').addEventListener('click', () => {
     clearInterval(intervel);
-    intervel = null; //dereferenced variable
-    document.body.style.backgroundColor = '';   
+    intervel = null; //dereferenced variable  
 });
