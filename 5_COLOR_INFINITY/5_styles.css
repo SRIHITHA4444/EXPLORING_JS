@@ -40,6 +40,7 @@ nav a[aria-current='page'] {
 button{
     padding: 10px 20px;
     border-radius: 5px;
+    margin: 40px;
 }
 
 #start{
