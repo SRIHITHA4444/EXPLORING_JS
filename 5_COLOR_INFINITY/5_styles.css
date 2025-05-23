@@ -7,7 +7,6 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
-  font-size: 16px;
 }
 
 nav {
@@ -37,10 +36,17 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 
+p{
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 button{
     padding: 10px 20px;
     border-radius: 5px;
     margin: 40px;
+    font-size: 16px;
 }
 
 #start{
