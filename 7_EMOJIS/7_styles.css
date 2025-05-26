@@ -23,11 +23,6 @@ nav {
   border-bottom: solid 1px #aaa;
 }
 
-.home:hover {
-  background-color: antiquewhite;
-  color: brown;
-}
-
 nav a {
   display: inline-block;
   min-width: 9rem;
@@ -39,9 +34,11 @@ nav a {
   color: #555;
 }
 
-main {
-  padding: 1rem;
+.home:hover {
+  background-color: antiquewhite;
+  color: brown;
 }
+
 
 p{
     margin-top: 40px;
