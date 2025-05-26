@@ -1,4 +1,5 @@
 const button = document.querySelector("button");
+const res = document.querySelector("#joke");
 
 const jokes = [
     "Why was 6 afraid of 7? Because 7,8,9.",
@@ -14,3 +15,8 @@ const jokes = [
     "Why did the tree go to the dentist? It needed a root canal.",
     "Why is Peter Pan always flying? He Neverlands.",
 ]
+
+button.addEventListener('click', () => {
+    const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+    res.textContent = randomJoke;
+})
