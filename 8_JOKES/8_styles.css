@@ -45,7 +45,7 @@ p{
 }
 
 button{
-    background-color:rgb(210, 246, 9);
+    background-color: none;
     color: rgb(142, 7, 111);
     font-size: 20px;
     font-weight: 600;
