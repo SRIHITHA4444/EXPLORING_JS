@@ -62,8 +62,7 @@ nav a {
   border-radius: 5px;
 }
 
-.signup-container button {
-  width: 100%;
+button {
   padding: 10px;
   background: #4CAF50;
   color: white;
