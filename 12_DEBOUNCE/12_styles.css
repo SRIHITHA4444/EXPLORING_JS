@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #212121;
+  flex-direction: column;
+  place-items: center;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+.home:hover {
+  background-color: antiquewhite;
+  color: brown;
+}
+
+.debounce-container{
+    text-align: center;
+}
+
+#user-input {
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.api-card{
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  display: none;
+}
+
+.api-card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.api-card h2 {
+  margin: 10px 0;
+}
+
+.api-card p {
+  color: #666;
+}
