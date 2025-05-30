@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOK LIST 📚</title>
+    <link rel="stylesheet" href="13_styles.css" />
+  </head>
+  <body>
+    <nav>
+        <a class = "home" href="/" aria-current="page">Home</a>
+    </nav>
+    <h2>BOOK LIST 📚</h2>
+    <section class="container">
+      <form id="book-form">
+        <div>
+          <label for="title">Book Title</label>
+          <input type="text" id="title" />
+        </div>
+        <div>
+          <label for="author">Book Author</label>
+          <input type="text" id="author" />
+        </div>
+        <div>
+          <label for="year">Published Year</label>
+          <input type="number" id="year" min = "1600"/>
+        </div>
+        <button type="submit" class="btn">Add Book</button>
+      </form>
+
+      <section class="table">
+        <section class="table-section">
+          <div>Title</div>
+          <div>Author</div>
+          <div>Year</div>
+        </section>
+
+        <section id="book-list"></section>
+      </section>
+    </section>
+  </body>
+  <script src = "13_script.js"></script>
+</html>
